@@ -1,4 +1,4 @@
-package sametree
+package main
 
 import "testing"
 

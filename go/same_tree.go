@@ -1,10 +1,4 @@
-package sametree
-
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+package main
 
 func isSameTree(p *TreeNode, q *TreeNode) bool {
 	if p == nil && q == nil {
