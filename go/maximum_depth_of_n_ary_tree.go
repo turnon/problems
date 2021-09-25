@@ -1,5 +1,8 @@
 package main
 
+/*
+LC#559 N叉树的最大深度
+*/
 func maxDepth(root *Node) int {
 	if root == nil {
 		return 0
